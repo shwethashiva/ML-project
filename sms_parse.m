@@ -1,10 +1,10 @@
 function [ words ] = sms_parse( msg )
-%SMS_PARSE Parse an sms message and return a cell array of words
+%This file Parses an sms message returns array of words
 % Input: msg string containing sms message
 % Output: words   cell array of words in message 
 
 % convert GBP symbol to dollar sign and add a space
-msg = regexprep(msg,'[£$]',' $ ');
+msg = regexprep(msg,'[Â£$]',' $ ');
 
 % convert :// to special token
 msg = regexprep(msg, '\://', ' __url__ ');
