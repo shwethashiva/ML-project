@@ -1,4 +1,4 @@
-% Name: Prachi Shirode
+% Name: Shwetha and Prachi Shirode
 % Function to compute confusion matrix, accuracy, precision and recall
 
 function stats = confusionmatStats(group,grouphat)
