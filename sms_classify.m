@@ -1,4 +1,4 @@
-%Name: Shwetha Shivaraju  and Prachi Shirode
+%Name: Shwetha Shivaraju
 
 %% Load
 load sms.mat;  % loads X_train,X_test,y_train,y_test
